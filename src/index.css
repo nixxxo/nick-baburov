@@ -1,0 +1,17 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Neology';
+    src: url('assets/fonts/neology_deco_w03_bold-webfont.woff2') format('woff2'),
+         url('assets/fonts/neology_deco_w03_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.sidebar-icon{
+    color: #393E47;
+}
