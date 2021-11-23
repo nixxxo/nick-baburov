@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/nick-baburov/static/css/main.248ef8a9.chunk.css",
+    "main.js": "/nick-baburov/static/js/main.1bcb8552.chunk.js",
+    "main.js.map": "/nick-baburov/static/js/main.1bcb8552.chunk.js.map",
+    "runtime-main.js": "/nick-baburov/static/js/runtime-main.98143a28.js",
+    "runtime-main.js.map": "/nick-baburov/static/js/runtime-main.98143a28.js.map",
+    "static/js/2.d9f6cd94.chunk.js": "/nick-baburov/static/js/2.d9f6cd94.chunk.js",
+    "static/js/2.d9f6cd94.chunk.js.map": "/nick-baburov/static/js/2.d9f6cd94.chunk.js.map",
+    "static/js/3.579b1791.chunk.js": "/nick-baburov/static/js/3.579b1791.chunk.js",
+    "static/js/3.579b1791.chunk.js.map": "/nick-baburov/static/js/3.579b1791.chunk.js.map",
+    "index.html": "/nick-baburov/index.html",
+    "static/css/main.248ef8a9.chunk.css.map": "/nick-baburov/static/css/main.248ef8a9.chunk.css.map",
+    "static/js/2.d9f6cd94.chunk.js.LICENSE.txt": "/nick-baburov/static/js/2.d9f6cd94.chunk.js.LICENSE.txt",
+    "static/media/Full-Logo.e2759db2.png": "/nick-baburov/static/media/Full-Logo.e2759db2.png",
+    "static/media/boat-portrait.159d34d5.jpg": "/nick-baburov/static/media/boat-portrait.159d34d5.jpg",
+    "static/media/index.css": "/nick-baburov/static/media/slavi.2460e6d0.jpg",
+    "static/media/portrait.fbb5cabf.png": "/nick-baburov/static/media/portrait.fbb5cabf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98143a28.js",
+    "static/js/2.d9f6cd94.chunk.js",
+    "static/css/main.248ef8a9.chunk.css",
+    "static/js/main.1bcb8552.chunk.js"
+  ]
+}
