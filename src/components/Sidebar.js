@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 
 let animationVar = isMobile === true ? 0 : -62
 
-let iconSize = isMobile === true ? "25" : "35"
+let iconSize = isMobile === true ? "23" : "35"
 
 const SideBar = () => {
   return (
@@ -15,7 +15,7 @@ const SideBar = () => {
     animate={{x:[0,0,0,0,0,0,animationVar], opacity:1, transitionEnd: {x:animationVar}}}
     transition={{ type: "spring", delay:0.2, duration: 3}} 
     whileHover={{x:0, transition: {duration:0.2}}}
-    className="fixed inset-y-0 left-2 md:left-3 h-2/5 w-12 sm:w-16 flex flex-col 
+    className="fixed inset-y-0 left-1 md:left-3 h-1/3 md:h-2/5 w-9 sm:w-16 flex flex-col 
     items-center justify-evenly rounded-lg shadow-xl my-auto
     border-white border-8 backdrop-blur-md bg-white">       
         <SideBarIcon icon={<SiAboutdotme size={iconSize} />} link="/about" />

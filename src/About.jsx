@@ -21,7 +21,7 @@ const h2Format = "font-neo transition underline mb-3 text-2xl md:text-3xl text-b
 const h4Format = "font-neo transition text-xl mb-2 md:text-2xl text-blue-400 hover:text-blue-600 font-medium"
 const pFormat = "transition font-roboto leading-4 text-sm md:text-base text-gray-700 font-light"
 const skillsFormat = "mb-1 bg-white hover:bg-blue-200 p-1 hover:p-10 rounded-md"
-const refFormat = "flex flex-col pt-16 px-2 justify-end text-white bg-slavi bg-cover rounded lg:rounded-lg"
+const refFormat = "flex flex-col pt-16 px-2 justify-end text-white bg-cover rounded lg:rounded-lg"
 
 const About = () => {
     return (
@@ -58,7 +58,7 @@ const About = () => {
                     </div>
                     <div className="mt-4 grid grid-cols-1 md:grid-cols-3 w-9/12 lg:w-8/12 m-auto gap-6">
                         <div className="col-span-1">
-                            <img className="transition bg-white hover:bg-blue-200 w-full p-2 hover:p-10 rounded-sm" src={boat_portrait} alt="portrait"/>
+                            {/* <img className="transition bg-white hover:bg-blue-200 w-full p-2 hover:p-10 rounded-sm" src={} alt="portrait"/> */}
                             <div>
                             <h2 className={h2Format}>skills</h2>
                             <div>
@@ -167,28 +167,28 @@ const About = () => {
                                 <h2 className={h2Format}>referees</h2>
                                 <div className="grid grid-cols-2 gap-4">
                                     <div className="grid grid-cols-1 gap-4">
-                                        <div className={refFormat}>
-                                            <h2>The Clashers</h2>
-                                            <Popup text="See More" classNames="text-gray-50"/>
-                                        </div>
-                                        <div className={refFormat}>
+                                        <div className="flex flex-col pt-16 px-2 justify-end text-white bg-cover rounded lg:rounded-lg bg-igrachi">
                                             <h2>Igrachi FC</h2>
-                                            <Popup text="See More" classNames="text-gray-50"/>
+                                            <Popup classNames="text-gray-50"/>
+                                        </div>
+                                        <div className="flex flex-col pt-16 px-2 justify-end text-white bg-cover rounded lg:rounded-lg bg-press-start">
+                                            <h2>Press Start</h2>
+                                            <Popup classNames="text-gray-50"/>
                                         </div>
                                     </div>
                                     <div className="grid grid-cols-1 gap-4">
-                                        <div className={refFormat}>
+                                        {/* <div className={refFormat}>
                                             <h2>CEZ</h2>
-                                            <Popup text="See More" classNames="text-gray-50"/>
+                                            <Popup classNames="text-gray-50"/>
+                                        </div> */}
+                                        <div className="flex flex-col pt-16 px-2 bg-opacity-0 justify-end text-white bg-cover rounded lg:rounded-lg bg-slavi">
+                                            <h2>The Clashers</h2>
+                                            <Popup classNames="text-gray-50"/>
                                         </div>
-                                        <div className={refFormat}>
-                                            <h2>Press Start</h2>
-                                            <Popup text="See More" classNames="text-gray-50"/>
-                                        </div>
-                                        <div className={refFormat}>
+                                        {/* <div className={refFormat}>
                                             <h2>Eli Stefanova</h2>
-                                            <Popup text="See More" classNames="text-gray-50"/>
-                                        </div>
+                                            <Popup classNames="text-gray-50"/>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>

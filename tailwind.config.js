@@ -10,9 +10,9 @@ module.exports = {
         },
         backgroundImage: {
           'slavi': "url('./assets/referees/slavi.jpg')",
-          'igrachi': "url('./assets/referees/slavi.jpg')",
-          'cez': "url('./assets/referees/slavi.jpg')",
-          'press-start': "url('./assets/referees/slavi.jpg')",
+          'igrachi': "url('./assets/referees/igrachi.jpg')",
+          'cez': "url('./assets/referees/cez.jpg')",
+          'press-start': "url('./assets/referees/press-start.jpg')",
           'eli-stefanova': "url('./assets/referees/slavi.jpg')",
          }
       },
