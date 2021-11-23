@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <AnimatePresence exitBeforeEnter>
-        <Router>
+        <Router basename="/nick-baburov">
           <Switch>
               <Route path="/" exact component={() => <Welcome />} />
               <Route path="/about" exact component={() => <About />} />
