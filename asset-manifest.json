@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nick-baburov/static/css/main.248ef8a9.chunk.css",
-    "main.js": "/nick-baburov/static/js/main.7d0a58d8.chunk.js",
-    "main.js.map": "/nick-baburov/static/js/main.7d0a58d8.chunk.js.map",
+    "main.js": "/nick-baburov/static/js/main.e5114af0.chunk.js",
+    "main.js.map": "/nick-baburov/static/js/main.e5114af0.chunk.js.map",
     "runtime-main.js": "/nick-baburov/static/js/runtime-main.6c7e2463.js",
     "runtime-main.js.map": "/nick-baburov/static/js/runtime-main.6c7e2463.js.map",
     "static/js/2.a718e005.chunk.js": "/nick-baburov/static/js/2.a718e005.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.6c7e2463.js",
     "static/js/2.a718e005.chunk.js",
     "static/css/main.248ef8a9.chunk.css",
-    "static/js/main.7d0a58d8.chunk.js"
+    "static/js/main.e5114af0.chunk.js"
   ]
 }
