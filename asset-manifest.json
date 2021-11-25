@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/nick-baburov/static/css/main.248ef8a9.chunk.css",
-    "main.js": "/nick-baburov/static/js/main.e5114af0.chunk.js",
-    "main.js.map": "/nick-baburov/static/js/main.e5114af0.chunk.js.map",
-    "runtime-main.js": "/nick-baburov/static/js/runtime-main.6c7e2463.js",
-    "runtime-main.js.map": "/nick-baburov/static/js/runtime-main.6c7e2463.js.map",
-    "static/js/2.a718e005.chunk.js": "/nick-baburov/static/js/2.a718e005.chunk.js",
-    "static/js/2.a718e005.chunk.js.map": "/nick-baburov/static/js/2.a718e005.chunk.js.map",
-    "static/js/3.d5f54aa5.chunk.js": "/nick-baburov/static/js/3.d5f54aa5.chunk.js",
-    "static/js/3.d5f54aa5.chunk.js.map": "/nick-baburov/static/js/3.d5f54aa5.chunk.js.map",
-    "index.html": "/nick-baburov/index.html",
-    "static/css/main.248ef8a9.chunk.css.map": "/nick-baburov/static/css/main.248ef8a9.chunk.css.map",
-    "static/js/2.a718e005.chunk.js.LICENSE.txt": "/nick-baburov/static/js/2.a718e005.chunk.js.LICENSE.txt",
-    "static/media/Full-Logo.e2759db2.png": "/nick-baburov/static/media/Full-Logo.e2759db2.png",
-    "static/media/boat-portrait.159d34d5.jpg": "/nick-baburov/static/media/boat-portrait.159d34d5.jpg",
-    "static/media/index.css": "/nick-baburov/static/media/slavi.2460e6d0.jpg",
-    "static/media/portrait.fbb5cabf.png": "/nick-baburov/static/media/portrait.fbb5cabf.png"
+    "main.css": "/portfolio/static/css/main.69f96263.chunk.css",
+    "main.js": "/portfolio/static/js/main.9eeba7aa.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9eeba7aa.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.498d5618.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.498d5618.js.map",
+    "static/js/2.077060b5.chunk.js": "/portfolio/static/js/2.077060b5.chunk.js",
+    "static/js/2.077060b5.chunk.js.map": "/portfolio/static/js/2.077060b5.chunk.js.map",
+    "static/js/3.d5f54aa5.chunk.js": "/portfolio/static/js/3.d5f54aa5.chunk.js",
+    "static/js/3.d5f54aa5.chunk.js.map": "/portfolio/static/js/3.d5f54aa5.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.69f96263.chunk.css.map": "/portfolio/static/css/main.69f96263.chunk.css.map",
+    "static/js/2.077060b5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.077060b5.chunk.js.LICENSE.txt",
+    "static/media/Full-Logo.e2759db2.png": "/portfolio/static/media/Full-Logo.e2759db2.png",
+    "static/media/boat-portrait.159d34d5.jpg": "/portfolio/static/media/boat-portrait.159d34d5.jpg",
+    "static/media/index.css": "/portfolio/static/media/slavi.2460e6d0.jpg",
+    "static/media/portrait.fbb5cabf.png": "/portfolio/static/media/portrait.fbb5cabf.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6c7e2463.js",
-    "static/js/2.a718e005.chunk.js",
-    "static/css/main.248ef8a9.chunk.css",
-    "static/js/main.e5114af0.chunk.js"
+    "static/js/runtime-main.498d5618.js",
+    "static/js/2.077060b5.chunk.js",
+    "static/css/main.69f96263.chunk.css",
+    "static/js/main.9eeba7aa.chunk.js"
   ]
 }
