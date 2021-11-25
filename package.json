@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "nth-check": ">=2.0.1",
     "immer": ">=9.0.6",
     "@craco/craco": "^6.3.0",
     "@ramonak/react-progress-bar": "^4.0.0",
@@ -47,6 +48,7 @@
     ]
   },
   "devDependencies": {
+    "nth-check": ">=2.0.1",
     "immer": ">=9.0.6",
     "@react-three/fiber": "^7.0.17",
     "autoprefixer": "^9.8.8",
