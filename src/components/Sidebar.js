@@ -2,14 +2,20 @@ import { SiAboutdotme, SiCodeclimate, SiMaildotru} from "react-icons/si";
 import { IoPencil } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { isMobile } from 'react-device-detect';
-
 import { motion } from "framer-motion"
+import useWindowDimensions from './GetDimensions'
 
-let animationVar = isMobile === true ? 0 : -62
 
-let iconSize = isMobile === true ? "23" : "35"
 
 const SideBar = () => {
+
+  const { height, width } = useWindowDimensions();
+  console.log([height, width]);
+
+  let animationVar = isMobile === true ? 0 : height < 700 ? -61 : -62
+
+  let iconSize = isMobile === true ? "23" : "35"
+
   return (
     <motion.div initial={{x:animationVar, opacity:0}} 
     animate={{x:[0,0,0,0,0,0,animationVar], opacity:1, transitionEnd: {x:animationVar}}}
