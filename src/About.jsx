@@ -128,7 +128,7 @@ const About = () => {
                                 <ul>
                                     <li className="mb-2">
                                         <h4 className={h4Format}>Asset Entities · 2021 - now</h4>
-                                        <p className={pFormat}>Fullstack developer for <a className="text-blue-300 hover:text-blue-600" rel="noreferrer" target="_blank" href="https://assetentities.com/">Asset Entities </a> - in charge of building and managinf website, discord bots, user expirience, unpublished app, user data collection, data managment, as well as mentoring and being in charge of other supporting developers</p>
+                                        <p className={pFormat}>Fullstack developer for <a className="text-blue-300 hover:text-blue-600" rel="noreferrer" target="_blank" href="https://assetentities.com/">Asset Entities </a> - in charge of building and managing website, discord bots, user expirience, unpublished app, user data collection, data managment, as well as mentoring and being in charge of other supporting developers.</p>
                                     </li>
                                     <li className="mb-2">
                                         <h4 className={h4Format}>CEZ · Summer 2021</h4>
@@ -163,7 +163,7 @@ const About = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="mb-6">
+                            {/* <div className="mb-6">
                                 <h2 className={h2Format}>referees</h2>
                                 <div className="grid grid-cols-2 gap-4">
                                     <div className="grid grid-cols-1 gap-4">
@@ -177,21 +177,21 @@ const About = () => {
                                         </div>
                                     </div>
                                     <div className="grid grid-cols-1 gap-4">
-                                        {/* <div className={refFormat}>
+                                        <div className={refFormat}>
                                             <h2>CEZ</h2>
                                             <Popup classNames="text-gray-50"/>
-                                        </div> */}
+                                        </div>
                                         <div className="flex flex-col pt-16 px-2 bg-opacity-0 justify-end text-white bg-cover rounded lg:rounded-lg bg-slavi">
                                             <h2>The Clashers</h2>
                                             <Popup classNames="text-gray-50"/>
                                         </div>
-                                        {/* <div className={refFormat}>
+                                        <div className={refFormat}>
                                             <h2>Eli Stefanova</h2>
                                             <Popup classNames="text-gray-50"/>
-                                        </div> */}
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

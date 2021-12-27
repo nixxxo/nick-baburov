@@ -10,10 +10,11 @@ const pageTrans = {
   }
 
 
-function Pagetran({ other_div, classNames }) {
+function Pagetran({ other_div, classNames, ref }) {
     return (
         <AnimatePresence exitBeforeEnter>
             <motion.div
+            ref={ref}
             className={classNames}
             initial="from"
             animate="to"
