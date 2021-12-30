@@ -66,7 +66,7 @@ const Work = (params) => {
     };
 
     return (
-        <div data-theme="corporate">
+        <div>
             <motion.div ref={fullScreen} animate={fullScreenAnim}>
                 <SideBar className="flex"/>
                 <Pagetran classNames="bg-gray-100 h-screen" other_div={
