@@ -9,6 +9,8 @@ import Work from './Work';
 import Contact from './Contact';
 import Blog from './Blog';
 
+import HelloWorld from './posts/HelloWorld';
+
 function App() {
 
   return (
@@ -21,6 +23,7 @@ function App() {
               <Route path="/work" exact component={() => <Work />} />
               <Route path="/contact" exact component={() => <Contact />} />
               <Route path="/blog" exact component={() => <Blog />} />
+              <Route path="/hello-world" exact component={() => <HelloWorld />} />
           </Switch>
         </Router>
       </AnimatePresence>

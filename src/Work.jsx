@@ -93,7 +93,7 @@ const Work = (params) => {
                      <motion.h1 animate={movieStartCredits2} className='font-neo text-white text-3xl'>Turn off all electronics.</motion.h1>
                  </div>
                  <div className='absolute'>
-                     <motion.h1 animate={movieStartCredits3} className='font-neo text-white text-3xl'>Enjoy!</motion.h1>
+                     <motion.h1 animate={movieStartCredits3} className='font-neo text-white text-3xl'>Oops! Still not ready, expect soon...</motion.h1>
                  </div>
             </motion.div>
         </div>

@@ -17,10 +17,10 @@ import boat_portrait from './assets/boat-portrait.jpg'
 
 // let animationVar = isMobile === true ? -550 : -100
 
-const h2Format = "font-neo transition underline mb-3 text-2xl md:text-3xl text-blue-700 hover:text-blue-900 font-semibold"
-const h4Format = "font-neo transition text-xl mb-2 md:text-2xl text-blue-400 hover:text-blue-600 font-medium"
-const pFormat = "transition font-roboto leading-4 text-sm md:text-base text-gray-700 font-light"
-const skillsFormat = "mb-1 bg-white hover:bg-blue-200 p-1 hover:p-10 rounded-md"
+const h2Format = "font-neo transition cursor-pointer underline mb-3 text-2xl md:text-3xl text-blue-700 hover:text-blue-900 font-semibold"
+const h4Format = "font-neo cursor-pointer transition text-xl mb-2 md:text-2xl text-blue-400 hover:text-blue-600 font-medium"
+const pFormat = "transition cursor-pointer font-roboto leading-4 text-sm md:text-base text-gray-700 font-light"
+const skillsFormat = "mb-1 cursor-pointer bg-white hover:bg-blue-200 p-1 hover:p-10 rounded-md"
 const refFormat = "flex flex-col pt-16 px-2 justify-end text-white bg-cover rounded lg:rounded-lg"
 
 const About = () => {
@@ -81,19 +81,28 @@ const About = () => {
                                     <ProgressBar completed={100} customLabel="HTML" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
-                                    <ProgressBar completed={80} customLabel="CSS" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
+                                    <ProgressBar completed={70} customLabel="CSS" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
+                                </div>
+                                <div className={skillsFormat}>
+                                    <ProgressBar completed={95} customLabel="TailwindCss" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
                                     <ProgressBar completed={62} customLabel="Flutter" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
-                                    <ProgressBar completed={70} customLabel="React" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
+                                    <ProgressBar completed={65} customLabel="React" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
-                                    <ProgressBar completed={50} customLabel="PHP" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
+                                    <ProgressBar completed={74} customLabel="Node Js" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
-                                    <ProgressBar completed={40} customLabel="C#" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
+                                    <ProgressBar completed={65} customLabel="prisma.js" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
+                                </div>
+                                <div className={skillsFormat}>
+                                    <ProgressBar completed={35} customLabel="PHP" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
+                                </div>
+                                <div className={skillsFormat}>
+                                    <ProgressBar completed={45} customLabel="C#" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
                                     <ProgressBar completed={67} customLabel="Adobe" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
@@ -115,6 +124,7 @@ const About = () => {
                             <div>
                                 <h2 className={h2Format}>achievements</h2>
                                 <ul className={pFormat}>
+                                    <li className='text-gray-400'>2022 · CEH v11</li>
                                     <li>2021 · English C2 Proficiency</li>
                                     <li>2017 · Represntative at "European Night of Scientists"</li>
                                     <li>2015 · Won Coca-Cola Soccer Cup</li>
@@ -126,6 +136,10 @@ const About = () => {
                             <div className="mb-6">
                                 <h2 className={h2Format}>expirience</h2>
                                 <ul>
+                                    <li className="mb-2">
+                                        <h4 className={h4Format}>JPL · 2022</h4>
+                                        <p className={pFormat}>Intern at <a className="text-blue-300 hover:text-blue-600" rel="noreferrer" target="_blank" href="https://jpl.bg/">JPL</a> - getting to know basic cryptography mecahnism, while improving my C# coding ability. Working on database managment and implementation, graphical interface and understanding the mathematics behind/in world-class slot machines.</p>
+                                    </li>
                                     <li className="mb-2">
                                         <h4 className={h4Format}>Asset Entities · 2021 - now</h4>
                                         <p className={pFormat}>Fullstack developer for <a className="text-blue-300 hover:text-blue-600" rel="noreferrer" target="_blank" href="https://assetentities.com/">Asset Entities </a> - in charge of building and managing website, discord bots, user expirience, unpublished app, user data collection, data managment, as well as mentoring and being in charge of other supporting developers.</p>

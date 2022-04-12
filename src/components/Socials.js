@@ -9,10 +9,10 @@ let iconSize = isMobile === true ? "20" : "22"
 function Socials() {
     return (
         <div className="flex flex-row mt-2">
-            <SocialIcon icon={<BsGithub size={iconSize} />}/>
-            <SocialIcon icon={<BsInstagram size={iconSize} />}/>
-            <SocialIcon icon={<BsDiscord size={iconSize} />}/>
-            <SocialIcon icon={<BsTwitter size={iconSize} />}/>
+            <SocialIcon link={"https://github.com/nixxxo"} icon={<BsGithub size={iconSize} />}/>
+            {/* <SocialIcon link={"https://www.instagram.com/nik.bbrv/"} icon={<BsInstagram size={iconSize} />}/> */}
+            {/* <SocialIcon icon={<BsDiscord size={iconSize} />}/> */}
+            {/* <SocialIcon icon={<BsTwitter size={iconSize} />}/> */}
         </div>
     )
 }
