@@ -134,7 +134,7 @@ const About = () => {
                         <div className='col-span-2 px-0 md:px-4'>
                             
                             <div className="mb-6">
-                                <h2 className={h2Format}>expirience</h2>
+                                <h2 className={h2Format}>experience</h2>
                                 <ul>
                                     <li className="mb-2">
                                         <h4 className={h4Format}>JPL · 2022</h4>
