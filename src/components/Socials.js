@@ -12,7 +12,7 @@ function Socials() {
             <SocialIcon link={"https://github.com/nixxxo"} icon={<BsGithub size={iconSize} />}/>
             {/* <SocialIcon link={"https://www.instagram.com/nik.bbrv/"} icon={<BsInstagram size={iconSize} />}/> */}
             {/* <SocialIcon icon={<BsDiscord size={iconSize} />}/> */}
-            {/* <SocialIcon icon={<BsTwitter size={iconSize} />}/> */}
+            <SocialIcon link={"https://twitter.com/nix0dev"} icon={<BsTwitter size={iconSize} />}/>
         </div>
     )
 }
