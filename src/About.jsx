@@ -124,7 +124,7 @@ const About = () => {
                             <div>
                                 <h2 className={h2Format}>achievements</h2>
                                 <ul className={pFormat}>
-                                    <li className='text-gray-400'>2022 · CEH v11</li>
+                                    <li>2022 · CEH v11</li>
                                     <li>2021 · English C2 Proficiency</li>
                                     <li>2017 · Represntative at "European Night of Scientists"</li>
                                     <li>2015 · Won Coca-Cola Soccer Cup</li>
@@ -138,16 +138,16 @@ const About = () => {
                                 <ul>
                                     <li className="mb-2">
                                         <h4 className={h4Format}>JPL · 2022</h4>
-                                        <p className={pFormat}>Intern at <a className="text-blue-300 hover:text-blue-600" rel="noreferrer" target="_blank" href="https://jpl.bg/">JPL</a> - getting to know basic cryptography mecahnism, while improving my C# coding ability. Working on database managment and implementation, graphical interface and understanding the mathematics behind/in world-class slot machines.</p>
-                                    </li>
-                                    <li className="mb-2">
-                                        <h4 className={h4Format}>Asset Entities · 2021 - now</h4>
-                                        <p className={pFormat}>Fullstack developer for <a className="text-blue-300 hover:text-blue-600" rel="noreferrer" target="_blank" href="https://assetentities.com/">Asset Entities </a> - in charge of building and managing website, discord bots, user expirience, unpublished app, user data collection, data managment, as well as mentoring and being in charge of other supporting developers.</p>
+                                        <p className={pFormat}>Intern at <a className="text-blue-300 hover:text-green-600" rel="noreferrer" target="_blank" href="https://jpl.bg/">JPL</a> - getting to know basic cryptography mecahnism, while improving my C# coding ability. Working on database managment and implementation, graphical interface and understanding the mathematics behind/in world-class slot machines.</p>
                                     </li>
                                     <li className="mb-2">
                                         <h4 className={h4Format}>CEZ · Summer 2021</h4>
-                                        <p className={pFormat}>Paid internship at <a className="text-blue-300 hover:text-blue-600" rel="noreferrer" target="_blank" href="https://www.cez.bg/">CEZ </a>
+                                        <p className={pFormat}>Paid internship at <a className="text-blue-300 hover:text-yellow-500" rel="noreferrer" target="_blank" href="https://www.cez.bg/">CEZ </a>
                                         - one of the biggest conglomerates in Europe, with its core business in the generation, distribution, trade in, and sales of electricity and heat, trade in and sales of natural gas, and coal extraction.</p>
+                                    </li>
+                                    <li className="mb-2">
+                                        <h4 className={h4Format}>Asset Entities · 2020 - now</h4>
+                                        <p className={pFormat}>Fullstack developer for <a className="text-blue-300 hover:text-green-600" rel="noreferrer" target="_blank" href="https://assetentities.com/">Asset Entities </a> - in charge of building and managing website, discord bots, user expirience, unpublished app, user data collection, data managment, as well as mentoring and being in charge of other supporting developers.</p>
                                     </li>
                                     <li className="mb-2">
                                         <h4 className={h4Format}><a className="text-blue-400 hover:text-blue-600" rel="noreferrer" target="_blank" href="https://pressstart.bg/">PressStart</a> · 2017 - 2019</h4>
@@ -164,6 +164,10 @@ const About = () => {
                                 <h2 className={h2Format}>entrepreneurship</h2>
                                 <ul>
                                     <li className="mb-2">
+                                        <h4 className={h4Format}><a className="text-blue-400 hover:text-purple-600" rel="noreferrer" target="_blank" href="https://cryptcommunity.vercel.app/">CRYPT Community</a> · 2022 - now</h4>
+                                        <p className={pFormat}>Building a completely free crypto and trading commuity with screener and trading bots built in Python by me. A no bullshit Discord server where people could find like-minded individuals and exchange ideas.</p>
+                                    </li>
+                                    <li className="mb-2">
                                         <h4 className={h4Format}><a className="text-blue-400 hover:text-blue-600" rel="noreferrer" target="_blank" href="https://www.minimalistset.com/">The Minimalist Set</a> · 2021 - now</h4>
                                         <p className={pFormat}>Dropshipping store connected with favourite theme of mine - Minimalism.</p>
                                     </li>
@@ -172,7 +176,7 @@ const About = () => {
                                         <p className={pFormat}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit necessitatibus ducimus itaque accusamus autem error molestias repudiandae perferendis placeat consequatur.</p>
                                     </li> */}
                                     <li className="mb-2">
-                                        <h4 className={h4Format}><a className="text-blue-400 hover:text-blue-600" rel="noreferrer" target="_blank" href="http://championofchampions.eu/">Champion Of Champions</a> · 2015 - now</h4>
+                                        <h4 className={h4Format}><a className="text-blue-400 hover:text-yellow-500" rel="noreferrer" target="_blank" href="http://championofchampions.eu/">Champion Of Champions</a> · 2015 - now</h4>
                                         <p className={pFormat}>Founding and continuing to develop children's sport from 2015. Originally founded by my dad, who brought me in the organisation of such huge events (~2000 people). Covering the financial part, technical calcualtions, time managment and social media manegment.</p>
                                     </li>
                                 </ul>
