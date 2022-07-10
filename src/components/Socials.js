@@ -18,13 +18,13 @@ function Socials() {
 }
 
 const SocialIcon = ({ icon, link }) => (
-    <Link to={link}>
+    <a href={link}>
       <div className="pr-2">
         <motion.div whileHover = {{color:'#8ab9ff', transition:{duration:0.5, delay:0}}}>
           {icon}
         </motion.div>
       </div>
-    </Link>
+    </a>
   );
 
 export default Socials

@@ -27,7 +27,7 @@ const SideBar = () => {
         <SideBarIcon icon={<SiAboutdotme size={iconSize} />} link="/about" />
         <SideBarIcon icon={<SiCodeclimate size={iconSize} />} link="/work" />
         <SideBarIcon icon={<SiMaildotru size={iconSize}/>} link="/contact" />
-        <SideBarIcon icon={<IoPencil size={iconSize} />} link="https://medium.com/@nikobaburov"/>
+        <SideBarIconOut icon={<IoPencil size={iconSize} />} link="https://medium.com/@nikobaburov"/>
     </motion.div>
   );
 };
@@ -45,6 +45,21 @@ const SideBarIcon = ({ icon, link, text }) => (
       </span>
     </motion.div>
   </Link>
+);
+
+const SideBarIconOut = ({ icon, link, text }) => (
+  <a href={link}>
+    <motion.div >
+      <motion.div animate={{color:['#FC7015','#393E47']}} 
+      whileHover = {{color:'#FC7015', transition:{duration:0.5, delay:0}}} 
+      transition={{delay: 1.2, duration:2}} className="sidebar-icon">
+        {icon}
+      </motion.div>
+      <span class="sidebar-tooltip group-hover:scale-100">
+        {text}
+      </span>
+    </motion.div>
+  </a>
 );
 
 
