@@ -66,13 +66,13 @@ const About = () => {
                                     <ProgressBar completed={100} customLabel="Windows" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
-                                    <ProgressBar completed={80} customLabel="Linux" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
+                                    <ProgressBar completed={85} customLabel="Linux" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
                                     <ProgressBar completed={90} customLabel="Python" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
-                                    <ProgressBar completed={78} customLabel="JavaScript" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
+                                    <ProgressBar completed={72} customLabel="JavaScript" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
                                     <ProgressBar completed={58} customLabel="SQL" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
@@ -84,19 +84,19 @@ const About = () => {
                                     <ProgressBar completed={70} customLabel="CSS" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
-                                    <ProgressBar completed={95} customLabel="TailwindCss" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
+                                    <ProgressBar completed={100} customLabel="TailwindCss" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
-                                    <ProgressBar completed={62} customLabel="Flutter" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
+                                    <ProgressBar completed={65} customLabel="Flutter" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
-                                    <ProgressBar completed={65} customLabel="React" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
+                                    <ProgressBar completed={70} customLabel="React" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
-                                    <ProgressBar completed={74} customLabel="Node Js" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
+                                    <ProgressBar completed={80} customLabel="Next Js" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
-                                    <ProgressBar completed={65} customLabel="prisma.js" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
+                                    <ProgressBar completed={60} customLabel="prisma.js" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
                                     <ProgressBar completed={35} customLabel="PHP" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
@@ -114,10 +114,10 @@ const About = () => {
                                     <ProgressBar completed={100} customLabel="English" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
-                                    <ProgressBar completed={75} customLabel="German" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
+                                    <ProgressBar completed={82} customLabel="German" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                                 <div className={skillsFormat}>
-                                    <ProgressBar completed={80} customLabel="Russian" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
+                                    <ProgressBar completed={70} customLabel="Russian" height="1.5rem" borderRadius="5px" labelAlignment="left" bgColor='#8ab9ff'/>
                                 </div>
                             </div>
                             </div>
@@ -164,20 +164,28 @@ const About = () => {
                                 <h2 className={h2Format}>entrepreneurship</h2>
                                 <ul>
                                     <li className="mb-2">
-                                        <h4 className={h4Format}><a className="text-blue-400 hover:text-purple-600" rel="noreferrer" target="_blank" href="https://cryptcommunity.vercel.app/">CRYPT Community</a> · 2022 - now</h4>
-                                        <p className={pFormat}>Building a completely free crypto and trading commuity with screener and trading bots built in Python by me. A no bullshit Discord server where people could find like-minded individuals and exchange ideas.</p>
+                                        <h4 className={h4Format}><a className="text-blue-400 hover:text-yellow-600" rel="noreferrer" target="_blank" href="https://bedroom-heroes.vercel.app/">Bedroom Heroes</a> · 2022 - now</h4>
+                                        <p className={pFormat}>🤫 Coming soon...</p>
                                     </li>
                                     <li className="mb-2">
+                                        <h4 className={h4Format}><a className="text-blue-400 hover:text-purple-600" rel="noreferrer" target="_blank" href="https://cryptcommunity.vercel.app/">CRYPT Community</a> · 2022 - now</h4>
+                                        <p className={pFormat}>🔒 Building a completely free crypto and trading commuity with screener and trading bots built in Python by me. A no bullshit Discord server where people could find like-minded individuals and exchange ideas.</p>
+                                    </li>
+                                    <li className="mb-2">
+                                        <h4 className={h4Format}><a className="text-blue-400 hover:text-indigo-600" rel="noreferrer" target="_blank" href="https://apps.apple.com/bg/app/waveme/id1627430756">WaveMe</a> · 2020 - now</h4>
+                                        <p className={pFormat}>👋 Ever been to scared to approach someone because of social pressure or fear of rejection. Now we are making this easier. Wave at people digitially and get feedback on whether or not they are interested. The catch is you can wave at them in the app only until you see them in real life. So what are you waiting for, seize the moment!</p>
+                                    </li>
+                                    {/* <li className="mb-2">
                                         <h4 className={h4Format}><a className="text-blue-400 hover:text-blue-600" rel="noreferrer" target="_blank" href="https://www.minimalistset.com/">The Minimalist Set</a> · 2021 - now</h4>
                                         <p className={pFormat}>Dropshipping store connected with favourite theme of mine - Minimalism.</p>
-                                    </li>
+                                    </li> */}
                                     {/* <li className="mb-2">
                                         <h4 className={h4Format}>Common Your Sense · 2020 - now</h4>
                                         <p className={pFormat}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit necessitatibus ducimus itaque accusamus autem error molestias repudiandae perferendis placeat consequatur.</p>
                                     </li> */}
                                     <li className="mb-2">
                                         <h4 className={h4Format}><a className="text-blue-400 hover:text-yellow-500" rel="noreferrer" target="_blank" href="http://championofchampions.eu/">Champion Of Champions</a> · 2015 - now</h4>
-                                        <p className={pFormat}>Founding and continuing to develop children's sport from 2015. Originally founded by my dad, who brought me in the organisation of such huge events (~2000 people). Covering the financial part, technical calcualtions, time managment and social media manegment.</p>
+                                        <p className={pFormat}>⚽️ Founding and continuing to develop children's sport from 2015. Originally founded by my dad, who brought me in the organisation of such huge events (~2000 people). Covering the financial part, technical calcualtions, time managment and social media manegment.</p>
                                     </li>
                                 </ul>
                             </div>

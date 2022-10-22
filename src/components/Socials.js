@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link } from "react-router-dom";
 import { motion } from 'framer-motion';
 import { isMobile } from 'react-device-detect';
-import { BsGithub, BsInstagram, BsDiscord, BsTwitter } from "react-icons/bs"
+import { BsGithub, BsTwitter } from "react-icons/bs"
 
 let iconSize = isMobile === true ? "20" : "22"
 
