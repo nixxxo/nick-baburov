@@ -29,7 +29,7 @@ const Welcome = () => {
           <div className="flex flex-col items-center m-auto">
             <img src={logo} className="w-2/4 md:w-2/6 mb-5 mx-auto" alt="logo" />
             <ul className="text-center text-gray-900 text-sm sm:text-lg">
-              {/* <CalcAge/> */}
+              <CalcAge/>
               <li>Fullstack Developer</li>
               <li>CyberSec Enthusiast</li>
               <li>Calisthenics Athlete</li>
