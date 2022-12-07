@@ -1,26 +1,17 @@
 {
-  "files": {
-    "main.css": "/portfolio/static/css/main.36866e53.chunk.css",
-    "main.js": "/portfolio/static/js/main.76b0b14e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.76b0b14e.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.60321fc0.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.60321fc0.js.map",
-    "static/js/2.62a3ac37.chunk.js": "/portfolio/static/js/2.62a3ac37.chunk.js",
-    "static/js/2.62a3ac37.chunk.js.map": "/portfolio/static/js/2.62a3ac37.chunk.js.map",
-    "static/js/3.647ead37.chunk.js": "/portfolio/static/js/3.647ead37.chunk.js",
-    "static/js/3.647ead37.chunk.js.map": "/portfolio/static/js/3.647ead37.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/main.36866e53.chunk.css.map": "/portfolio/static/css/main.36866e53.chunk.css.map",
-    "static/js/2.62a3ac37.chunk.js.LICENSE.txt": "/portfolio/static/js/2.62a3ac37.chunk.js.LICENSE.txt",
-    "static/media/Full-Logo.e2759db2.png": "/portfolio/static/media/Full-Logo.e2759db2.png",
-    "static/media/boat-portrait.159d34d5.jpg": "/portfolio/static/media/boat-portrait.159d34d5.jpg",
-    "static/media/index.css": "/portfolio/static/media/slavi.2460e6d0.jpg",
-    "static/media/portrait.fbb5cabf.png": "/portfolio/static/media/portrait.fbb5cabf.png"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.60321fc0.js",
-    "static/js/2.62a3ac37.chunk.js",
-    "static/css/main.36866e53.chunk.css",
-    "static/js/main.76b0b14e.chunk.js"
-  ]
+  "main.css": "/portfolio/static/css/main.03b86263.chunk.css",
+  "main.js": "/portfolio/static/js/main.9339ff53.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.9339ff53.chunk.js.map",
+  "static/js/1.a1d82fca.chunk.js": "/portfolio/static/js/1.a1d82fca.chunk.js",
+  "static/js/1.a1d82fca.chunk.js.map": "/portfolio/static/js/1.a1d82fca.chunk.js.map",
+  "static/js/2.ae3d2eed.chunk.js": "/portfolio/static/js/2.ae3d2eed.chunk.js",
+  "static/js/2.ae3d2eed.chunk.js.map": "/portfolio/static/js/2.ae3d2eed.chunk.js.map",
+  "runtime~main.js": "/portfolio/static/js/runtime~main.86833aea.js",
+  "runtime~main.js.map": "/portfolio/static/js/runtime~main.86833aea.js.map",
+  "static/media/index.css": "/portfolio/static/media/neology_deco_w03_bold-webfont.49ff30ce.woff",
+  "static/media/Full-Logo.png": "/portfolio/static/media/Full-Logo.291a7b7e.png",
+  "static/css/main.03b86263.chunk.css.map": "/portfolio/static/css/main.03b86263.chunk.css.map",
+  "index.html": "/portfolio/index.html",
+  "precache-manifest.9f4afaa5b4c6bfa36532dc5247a2114c.js": "/portfolio/precache-manifest.9f4afaa5b4c6bfa36532dc5247a2114c.js",
+  "service-worker.js": "/portfolio/service-worker.js"
 }
