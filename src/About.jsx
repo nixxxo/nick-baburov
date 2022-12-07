@@ -16,7 +16,7 @@ const h2Format = "font-neo transition cursor-pointer underline mb-3 text-2xl md:
 const h4Format = "font-neo cursor-pointer transition text-xl mb-2 md:text-2xl text-blue-400 hover:text-blue-600 font-medium"
 const pFormat = "transition cursor-pointer font-roboto leading-4 text-sm md:text-base text-gray-700 font-light"
 const skillsFormat = "mb-1 cursor-pointer bg-white hover:bg-blue-200 p-1 hover:p-10 rounded-md"
-const refFormat = "flex flex-col pt-16 px-2 justify-end text-white bg-cover rounded lg:rounded-lg"
+// const refFormat = "flex flex-col pt-16 px-2 justify-end text-white bg-cover rounded lg:rounded-lg"
 
 const About = () => {
     return (
