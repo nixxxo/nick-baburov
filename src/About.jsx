@@ -1,4 +1,5 @@
 // Functional
+import React from 'react';
 import SideBar from './components/Sidebar.js';
 import Pagetran from './components/Pagetran';
 import Socials from './components/Socials.js';
@@ -164,7 +165,7 @@ const About = () => {
                                     </li>
                                     <li className="mb-2">
                                         <h4 className={h4Format}><a className="text-blue-400 hover:text-purple-600" rel="noreferrer" target="_blank" href="https://cryptcommunity.vercel.app/">CRYPT Community</a> · 2022 - now</h4>
-                                        <p className={pFormat}>🔒 Building a completely free crypto and trading commuity with screener and trading bots built in Python by me. A no bullshit Discord server where people could find like-minded individuals and exchange ideas. Checkout the blog post I made <a className="text-blue-300 hover:text-purple-600" rel="noreferrer" target="_blank" href="https://www.youtube.com/c/TheClashers">here</a>.</p>
+                                        <p className={pFormat}>🔒 Building a completely free crypto and trading commuity with screener and trading bots built in Python by me. A no bullshit Discord server where people could find like-minded individuals and exchange ideas. Checkout the blog post I made <a className="text-blue-300 hover:text-purple-600" rel="noreferrer" target="_blank" href="https://medium.com/@nikobaburov/how-i-made-a-stock-trading-bot-4673503b6801">here</a>.</p>
                                     </li>
                                     <li className="mb-2">
                                         <h4 className={h4Format}><a className="text-blue-400 hover:text-indigo-600" rel="noreferrer" target="_blank" href="https://apps.apple.com/bg/app/waveme/id1627430756">WaveMe</a> · 2020 - now</h4>

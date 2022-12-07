@@ -1,4 +1,5 @@
 import './index.css';
+import React from 'react';
 import { BrowserRouter as  Router, Route, Switch } from "react-router-dom";
 import { AnimatePresence } from 'framer-motion';
 import listReactFiles from 'list-react-files'

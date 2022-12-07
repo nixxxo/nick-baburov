@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './assets/Full-Logo.png';
 import './index.css';
 import { motion } from "framer-motion"

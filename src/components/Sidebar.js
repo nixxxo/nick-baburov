@@ -1,3 +1,4 @@
+import React from 'react';
 import { SiAboutdotme, SiCodeclimate, SiMaildotru} from "react-icons/si";
 import { IoPencil } from "react-icons/io5";
 import { Link } from "react-router-dom";

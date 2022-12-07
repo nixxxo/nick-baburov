@@ -8,7 +8,7 @@ module.exports = {
         ],
       },
     },
-    eslint: {
-      enable: false
-    },
+    // eslint: {
+    //   enable: false
+    // },
   }
