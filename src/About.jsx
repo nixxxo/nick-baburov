@@ -1,16 +1,11 @@
 // Functional
 import SideBar from './components/Sidebar.js';
 import Pagetran from './components/Pagetran';
-import { isMobile } from 'react-device-detect';
-import { motion } from "framer-motion"
 import Socials from './components/Socials.js';
 import ProgressBar from "@ramonak/react-progress-bar";
-import Popup from './components/Popup.js';
 
 
 // Images
-import portrait from './assets/portrait.png'
-import boat_portrait from './assets/boat-portrait.jpg'
 // import work_portrait from './assets/proof-of-work.jpeg'
 
 // const portraitFormat = "block w-max h-4/6 mr-4 border-8 border-white rounded-sm"
@@ -141,13 +136,13 @@ const About = () => {
                                         <p className={pFormat}>Intern at <a className="text-blue-300 hover:text-green-600" rel="noreferrer" target="_blank" href="https://jpl.bg/">JPL</a> - getting to know basic cryptography mecahnism, while improving my C# coding ability. Working on database managment and implementation, graphical interface and understanding the mathematics behind/in world-class slot machines.</p>
                                     </li>
                                     <li className="mb-2">
+                                        <h4 className={h4Format}>Asset Entities · 2020 - now</h4>
+                                        <p className={pFormat}>Fullstack developer for <a className="text-blue-300 hover:text-green-600" rel="noreferrer" target="_blank" href="https://assetentities.com/">Asset Entities </a> - in charge of building and managing website, discord bots, user expirience, unpublished app, user data collection, data managment, as well as mentoring and being in charge of other supporting developers.</p>
+                                    </li>
+                                    <li className="mb-2">
                                         <h4 className={h4Format}>CEZ · Summer 2021</h4>
                                         <p className={pFormat}>Paid internship at <a className="text-blue-300 hover:text-yellow-500" rel="noreferrer" target="_blank" href="https://www.cez.bg/">CEZ </a>
                                         - one of the biggest conglomerates in Europe, with its core business in the generation, distribution, trade in, and sales of electricity and heat, trade in and sales of natural gas, and coal extraction.</p>
-                                    </li>
-                                    <li className="mb-2">
-                                        <h4 className={h4Format}>Asset Entities · 2020 - now</h4>
-                                        <p className={pFormat}>Fullstack developer for <a className="text-blue-300 hover:text-green-600" rel="noreferrer" target="_blank" href="https://assetentities.com/">Asset Entities </a> - in charge of building and managing website, discord bots, user expirience, unpublished app, user data collection, data managment, as well as mentoring and being in charge of other supporting developers.</p>
                                     </li>
                                     <li className="mb-2">
                                         <h4 className={h4Format}><a className="text-blue-400 hover:text-blue-600" rel="noreferrer" target="_blank" href="https://pressstart.bg/">PressStart</a> · 2017 - 2019</h4>
@@ -155,7 +150,7 @@ const About = () => {
                                     </li>
                                     <li className="mb-2">
                                         <h4 className={h4Format}>Voluntary Work · 2017 - 2020</h4>
-                                        <p className={pFormat}>Helped, managed or build websites for 
+                                        <p className={pFormat}>Helped, managed or built websites for 
                                         <a className="text-blue-300 hover:text-blue-600" rel="noreferrer" target="_blank" href="https://tvbulgare.bg/"> TV Bulgare</a>, <a className="text-blue-300 hover:text-blue-600" rel="noreferrer" target="_blank" href="https://globaldentalclinic.bg/">Global Dental Clinic</a>, <a className="text-blue-300 hover:text-blue-600" rel="noreferrer" target="_blank" href="https://rayuvtsistars.com/">Stars under the Stars</a>, <a className="text-blue-300 hover:text-blue-600" rel="noreferrer" target="_blank" href="http://nakbg.com/">NAK</a> and that is just the peek of iceberg.</p>
                                     </li>
                                 </ul>
@@ -164,12 +159,12 @@ const About = () => {
                                 <h2 className={h2Format}>entrepreneurship</h2>
                                 <ul>
                                     <li className="mb-2">
-                                        <h4 className={h4Format}><a className="text-blue-400 hover:text-yellow-600" rel="noreferrer" target="_blank" href="https://bedroom-heroes.vercel.app/">Bedroom Heroes</a> · 2022 - now</h4>
-                                        <p className={pFormat}>🤫 Coming soon...</p>
+                                        <h4 className={h4Format}><a className="text-blue-400 hover:text-yellow-600" rel="noreferrer" target="_blank" href="https://bedroomheroes.io/">Bedroom Heroes</a> · 2022 - now</h4>
+                                        <p className={pFormat}>A NFT collection with real life perks made for the biggest and most premium night clubs in Sofia, Bulgaria. We are talking about <a className="text-blue-400 hover:text-yellow-600" rel="noreferrer" target="_blank" href="https://bedroom.bg/">Bedroom Premium Nightclub</a>.</p>
                                     </li>
                                     <li className="mb-2">
                                         <h4 className={h4Format}><a className="text-blue-400 hover:text-purple-600" rel="noreferrer" target="_blank" href="https://cryptcommunity.vercel.app/">CRYPT Community</a> · 2022 - now</h4>
-                                        <p className={pFormat}>🔒 Building a completely free crypto and trading commuity with screener and trading bots built in Python by me. A no bullshit Discord server where people could find like-minded individuals and exchange ideas.</p>
+                                        <p className={pFormat}>🔒 Building a completely free crypto and trading commuity with screener and trading bots built in Python by me. A no bullshit Discord server where people could find like-minded individuals and exchange ideas. Checkout the blog post I made <a className="text-blue-300 hover:text-purple-600" rel="noreferrer" target="_blank" href="https://www.youtube.com/c/TheClashers">here</a>.</p>
                                     </li>
                                     <li className="mb-2">
                                         <h4 className={h4Format}><a className="text-blue-400 hover:text-indigo-600" rel="noreferrer" target="_blank" href="https://apps.apple.com/bg/app/waveme/id1627430756">WaveMe</a> · 2020 - now</h4>
