@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3ec82bcceb55ed153689",
-    "url": "/portfolio/static/css/main.03b86263.chunk.css"
+    "revision": "75d6d9390152b9653596",
+    "url": "/portfolio/static/css/main.1b8e0ae9.chunk.css"
   },
   {
-    "revision": "3ec82bcceb55ed153689",
-    "url": "/portfolio/static/js/main.3ec82bcc.chunk.js"
+    "revision": "75d6d9390152b9653596",
+    "url": "/portfolio/static/js/main.75d6d939.chunk.js"
   },
   {
     "revision": "a1d82fca01947fc2e2e9",
@@ -20,6 +20,18 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/runtime~main.86833aea.js"
   },
   {
+    "revision": "7920ad5f41c5bff1f4327f184b409667",
+    "url": "/portfolio/static/media/slavi.7920ad5f.jpg"
+  },
+  {
+    "revision": "b9d0ae5eb89115427d260b5664940672",
+    "url": "/portfolio/static/media/press-start.b9d0ae5e.jpg"
+  },
+  {
+    "revision": "d86b8576b41f547cdaeba68904dec4f6",
+    "url": "/portfolio/static/media/igrachi.d86b8576.jpg"
+  },
+  {
     "revision": "9224eb768ad971c19bf5827769efc110",
     "url": "/portfolio/static/media/neology_deco_w03_bold-webfont.9224eb76.woff2"
   },
@@ -32,7 +44,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Full-Logo.291a7b7e.png"
   },
   {
-    "revision": "8ab7d8e3e41ed95e257c26c32c6e6b22",
+    "revision": "567667fef6bd0bf95c2db4c2ccf86a4c",
     "url": "/portfolio/index.html"
   }
 ];
