@@ -26,7 +26,7 @@ const SideBar = () => {
     items-center justify-evenly rounded-lg shadow-xl my-auto
     border-white border-8 backdrop-blur-md bg-white">       
         <SideBarIcon icon={<SiAboutdotme size={iconSize} />} link="/about" />
-        <SideBarIcon icon={<SiCodeclimate size={iconSize} />} link="/work" />
+        {/* <SideBarIcon icon={<SiCodeclimate size={iconSize} />} link="/work" /> */}
         <SideBarIcon icon={<SiMaildotru size={iconSize}/>} link="/contact" />
         <SideBarIconOut icon={<IoPencil size={iconSize} />} link="https://medium.com/@nikobaburov"/>
     </motion.div>
